@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Spotify - Your favourite music is here</title>
-        <link rel="stylesheet" href="style.css">
-        </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
     <nav>
         <ul>
@@ -21,32 +23,41 @@
             <h1>Best of Todays - Hits</h1>
             <div class="songItemContainer">
                 <div class="songItem">
-                    <img src = "covers/1.jpg" alt="1">
+                    <img src="covers/1.jpg" alt="1">
                     <span class="songName">Let me Love You</span>
 
                     <span class="songlistplay">
-                        <span class="timestamp">03:01 <i id="0" class="far songItemPlay fa-play-circle"></i> </span> 
+                        <span class="timestamp">
+                            03:01
+                            <i id="0" class="far songItemPlay fa-play-circle"></i>
+                        </span>
                     </span>
                 </div>
-                
+
                 <div class="songItem">
-                    <img src = "covers/2.jpg" alt="1">
+                    <img src="covers/2.jpg" alt="1">
                     <span class="songName">Falling in Love</span>
                     <span class="songlistplay">
-                        <span class="timestamp">04:05 <i id="1" class="far songItemPlay fa-play-circle"></i></span>
+                        <span class="timestamp">
+                            04:05
+                            <i id="1" class="far songItemPlay fa-play-circle"></i>
+                        </span>
                     </span>
                 </div>
-                
+
                 <div class="songItem">
-                    <img src = "covers/3.jpg" alt="1">
+                    <img src="covers/3.jpg" alt="1">
                     <span class="songName">Glimpse of Us</span>
                     <span class="songlistplay">
-                        <span class="timestamp">04:44 <i id="2" class="far songItemPlay fa-play-circle"></i> </span>
+                        <span class="timestamp">
+                            04:44
+                            <i id="2" class="far songItemPlay fa-play-circle"></i>
+                        </span>
                     </span>
                 </div>
-               
+
                 <div class="songItem">
-                    <img src = "covers/4.jpg" alt="1">
+                    <img src="covers/4.jpg" alt="1">
                     <span class="songName">Melody</span>
                     <span class="songlistplay">
                         <span class="timestamp">05:37 <i id="3" class="far songItemPlay fa-play-circle"></i> </span>
@@ -54,45 +65,47 @@
                 </div>
 
                 <div class="songItem">
-                    <img src = "covers/5.jpg" alt="1">
+                    <img src="covers/5.jpg" alt="1">
                     <span class="songName">Moving on</span>
                     <span class="songlistplay">
                         <span class="timestamp">05:00 <i id="4" class="far songItemPlay fa-play-circle"></i> </span>
                     </span>
                 </div>
-                
+
                 <div class="songItem">
-                    <img src = "covers/6.jpg" alt="1">
+                    <img src="covers/6.jpg" alt="1">
                     <span class="songName">Starboy</span>
                     <span class="songlistplay">
                         <span class="timestamp">04:04 <i id="5" class="far songItemPlay fa-play-circle"></i> </span>
                     </span>
-                
+
                 </div>
                 <div class="songItem">
-                    <img src = "covers/7.jpg" alt="1">
+                    <img src="covers/7.jpg" alt="1">
                     <span class="songName">Enna sona</span>
                     <span class="songlistplay">
-                        <span class="timestamp">03:05 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+                        <span class="timestamp">03:05 <i id="6" class="far songItemPlay fa-play-circle"></i>
+                        </span></span>
                 </div>
-               
+
                 <div class="songItem">
-                    <img src = "covers/8.jpg" alt="1">
+                    <img src="covers/8.jpg" alt="1">
                     <span class="songName">Jeena Jeena</span>
-                    <span class="songlistplay"><span class="timestamp">03:09 <i id="7" class="far songItemPlay fa-play-circle"></i> </span>
-                </span>
+                    <span class="songlistplay"><span class="timestamp">03:09 <i id="7"
+                                class="far songItemPlay fa-play-circle"></i> </span>
+                    </span>
                 </div>
-                
+
                 <div class="songItem">
-                    <img src = "covers/9.jpg" alt="1">
+                    <img src="covers/9.jpg" alt="1">
                     <span class="songName">Farq Hai</span>
                     <span class="songlistplay">
                         <span class="timestamp">05:40 <i id="8" class="far songItemPlay fa-play-circle"></i> </span>
                     </span>
-               
+
                 </div>
                 <div class="songItem">
-                    <img  alt="1">
+                    <img alt="1">
                     <span class="songName">Co2</span>
                     <span class="songlistplay">
                         <span class="timestamp">02:40 <i id="9" class="far songItemPlay fa-play-circle"></i> </span>
@@ -109,13 +122,14 @@
             <!-- fontawesome icons -->
             <i class="fas fa-3x fa-step-backward" id="previous"></i>
             <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
-            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
         </div>
         <div class="songInfo">
-            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName"></span>
+            <img src="./playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName"></span>
         </div>
     </div>
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
